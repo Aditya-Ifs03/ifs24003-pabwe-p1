@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Form Pendaftaran Akun</title>
+</head>
+<body>
+
+  <fieldset>
+    <legend>Daftar Akun</legend>
+
+    <!-- Nama Lengkap -->
+    <p>
+      <label>Nama Lengkap:<br />
+        <input type="text" name="nama" placeholder="Masukkan nama lengkap" />
+      </label>
+    </p>
+
+    <!-- Jenis Kelamin -->
+    <p>
+      Jenis Kelamin:<br />
+      <label><input type="radio" name="gender" value="laki" /> Laki-laki</label>&nbsp;
+      <label><input type="radio" name="gender" value="perempuan" /> Perempuan</label>
+    </p>
+
+    <!-- Tempat Lahir -->
+    <p>
+      <label>Tempat Lahir:<br />
+        <input type="text" name="tempat_lahir" placeholder="Masukkan tempat lahir" />
+      </label>
+    </p>
+
+    <!-- Tanggal Lahir -->
+    <p>
+      <label>Tanggal Lahir:<br />
+        <input type="date" name="tgl_lahir" />
+      </label>
+    </p>
+
+    <!-- Agama -->
+    <p>
+      <label>Agama:<br />
+        <select name="agama">
+          <option value="">-- Pilih Agama --</option>
+          <option value="islam">Islam</option>
+          <option value="katolik">Katolik</option>
+          <option value="protestan">Protestan</option>
+          <option value="hindu">Hindu</option>
+          <option value="buddha">Buddha</option>
+          <option value="konghucu">Konghucu</option>
+        </select>
+      </label>
+    </p>
+
+    <!-- Hobi -->
+    <p>
+      Hobi:<br />
+      <label><input type="checkbox" name="hobi" value="membaca" /> Membaca</label>&nbsp;
+      <label><input type="checkbox" name="hobi" value="olahraga" /> Olahraga</label>&nbsp;
+      <label><input type="checkbox" name="hobi" value="coding" /> Coding</label>&nbsp;
+      <label><input type="checkbox" name="hobi" value="musik" /> Musik</label>
+    </p>
+
+    <!-- Password -->
+    <p>
+      <label>Password:<br />
+        <input type="password" name="password" placeholder="Masukkan password" />
+      </label>
+    </p>
+
+    <!-- Persetujuan -->
+    <p>
+      <label>
+        <input type="checkbox" name="setuju" />
+        Saya menyetujui syarat dan ketentuan yang berlaku.
+      </label>
+    </p>
+
+    <!-- Tombol -->
+    <p>
+      <input type="reset" value="Reset" />
+      &nbsp;
+      <input type="submit" value="Daftar" />
+    </p>
+
+  </fieldset>
+
+</body>
+</html>
